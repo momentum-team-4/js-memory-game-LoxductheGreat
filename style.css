@@ -1,0 +1,37 @@
+/* .card-deck{
+    height: 20rem;
+    width: 20rem;
+} */
+
+.body{
+    height: 30rem;
+    width: 30rem;
+    perspective: 1000px;
+}
+
+
+.cards{
+    height: 7rem;
+    width: 5rem;
+    background-color: greenyellow;
+    margin: 10px;
+    transform-style: preserve-3d;
+}
+
+.carddeck{
+    height: 20rem;
+    width: 20rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+cards.flip{
+    transform: rotateY(180deg);
+       
+}
+
+.clicked{
+    background-color: black;
+}
